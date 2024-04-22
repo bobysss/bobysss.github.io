@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(144, 180, 202);
+    position: relative;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #07609b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    width: 270px;
+}
+
+.barra-de-navegacao {
+    background-color: #07609b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.barra-de-navegacao ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-de-navegacao ul li {
+    margin-right: 30px;
+}
+
+.barra-de-navegacao ul li:last-child {
+    margin-right: 0;
+}
+
+.barra-de-navegacao ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.barra-de-navegacao ul li a:hover {
+    color: #ccc;
+}
+
+.introducao {
+    text-align: center;
+    padding: 50px 1px;
+}
+
+.introducao h1 {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+.introducao h2 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+.introducao p {
+    font-size: 18px;
+    line-height: 2.0;
+    color: #000000;
+}
+
+.rodapé {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #07609b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.rodapé p {
+    color: #ffffff;
+}
